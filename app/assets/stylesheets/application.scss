@@ -1,2 +1,27 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+$grey-medium-light: #EAEAEA;
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid rgb(5, 5, 5);
+    color: grey;
+    a {
+        color: grey;
+        /*it means: that a:hover */
+        &:hover {
+            color: grey;
+        }
+    }
+    small {
+        float: left;
+    }
+    ul {
+        float: right;
+        list-style: none;
+        li {
+            float: left;
+            margin-left: 15px;
+        }
+    }
+}
